@@ -11,8 +11,8 @@ if exe == 1:
     lastd *= -1
 print("Last digit of {:d} is ".format(number), end="")
 if lastd > 5:
-    print("Last digit of {:d} is {:d} and is greater than 5".format(number, num))
+    print("{:d} and is greater than 5".format(lastd))
 elif lastd == 0:
-    print("Last digit of {:d} is {:d} and is 0".format(number, num))
+    print("{:d} and is 0".format(lastd))
 else:
-    print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, num))
+    print("{:d} and is less than 6 and not 0".format(lastd))
